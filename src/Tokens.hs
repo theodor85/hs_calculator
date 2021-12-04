@@ -53,3 +53,4 @@ clearSpace []  = []
 clearSpace str = if head str == ' '
                  then clearSpace(tail str)
                  else head str : clearSpace(tail str)
+  

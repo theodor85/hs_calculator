@@ -25,6 +25,8 @@ source-repository head
 
 library
   exposed-modules:
+      Ast
+      BinaryTree
       Lib
       Tokens
   other-modules:
